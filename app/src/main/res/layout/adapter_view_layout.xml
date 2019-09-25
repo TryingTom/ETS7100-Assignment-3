@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <TextView
+    android:id="@+id/view_date"
+    android:layout_gravity="center"
+    android:inputType="date"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_weight="80"
+    />
+
+    <Button
+        android:gravity="center_vertical"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="X"
+        android:layout_weight="20"/>
+</LinearLayout>
